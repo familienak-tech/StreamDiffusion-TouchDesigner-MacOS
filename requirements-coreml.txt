@@ -1,0 +1,11 @@
+# Tested on macOS 27.2.1 / Apple Silicon with Python 3.12.11 and TouchDesigner 2025.33230
+coremltools==8.3.0
+torch==2.5.1
+torchvision==0.20.1
+diffusers==0.33.1
+transformers==4.46.3
+accelerate==1.11.0
+numpy==1.26.4
+Pillow==13.0.0
+safetensors==0.8.0
+huggingface-hub[cli]==0.36.2

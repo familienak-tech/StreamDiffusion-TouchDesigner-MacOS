@@ -1,0 +1,18 @@
+# Local Python environments and generated assets
+.venv/
+.coreml.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# CoreML and downloaded model weights are large, licensed separately, and not distributed here
+coreml_models/**
+!coreml_models/README.md
+models/**
+!models/README.md
+
+# Local TouchDesigner caches and backups
+.tox_backup/
+CrashAutoSave.*.toe
+.DS_Store
